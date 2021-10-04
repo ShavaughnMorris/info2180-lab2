@@ -1,0 +1,107 @@
+.shav{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    
+}
+
+p,ul{
+
+    color: #2D3748 ;
+
+    font-size: 18px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,  'Helvetica Neue', Arial, "Noto Sans",  sans-serif;
+}   
+
+.container{
+    display: grid;
+    grid-template-columns: auto 320px;
+    grid-template-rows: 280px 900px 45px;
+    grid-gap: 10px; 
+    
+}
+
+header{
+    background-color: #63B3ED;
+
+    grid-column: 1/3;
+    display: flex;  
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;color: #FFFFFF;
+    
+
+    
+
+       
+}
+main{
+   
+    grid-column: 1/2;
+
+    grid-row: 2;
+
+    padding: 20px 50px 50px 100px;
+   
+}
+aside{
+    
+    grid-column: 2;
+
+    grid-row: 2;
+
+}
+footer{
+    
+    grid-column: 1/3;
+    grid-row: 3;
+
+    background-color: #2C5282 ;
+    padding: 0px 0px 0px 100px;
+
+}
+.footer{
+   color: #FFFFFF; 
+}
+h1{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.q{
+    margin-top: 0%;
+}
+h2{
+    font-size: 32px;
+    color: #48BB78;
+}
+.dateName{
+    color: #718096;
+
+}
+
+.Media,.Archs{
+
+    color:#48BB78;
+    
+}
+
+.about{
+    color: #000000;
+    background-color:#E2E8F0 ;
+    padding: 10px 15px;
+
+
+}
+section{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+.source1,.source2{
+    height: 120px;
+    width: 120px;
+    float: right;
+
+}   
